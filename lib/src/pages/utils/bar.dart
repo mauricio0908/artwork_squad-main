@@ -26,7 +26,12 @@ class MyAppBar {
         Padding(
             padding: EdgeInsets.symmetric(horizontal: 5),
             child:
-                IconButton(icon: Icon(Icons.chat_outlined), onPressed: () {})),
+                // ignore: unnecessary_statements
+                IconButton(
+                    icon: Icon(Icons.chat_outlined),
+                    onPressed: () {
+                      "C:/Users/Mauricio/Desktop/artwork_squad-main/lib/src/pages/contenido/chat_page.dart";
+                    })),
         //Icon(Icons.more_vert), Puntos vrticales
       ],
       backgroundColor: Colors.black87,
